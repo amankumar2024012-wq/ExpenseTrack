@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+}
+
+/* ExpenseTrack Settings Theme */
+
+.settings-page {
+  background: #f9fafb;
+  color: #111827;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.settings-card {
+  background: #ffffff;
+  border-color: #e5e7eb;
+  color: #111827;
+}
+
+.settings-muted {
+  color: #6b7280;
+}
+
+.settings-label {
+  color: #374151;
+}
+
+.settings-input {
+  background: #ffffff;
+  color: #111827;
+  border-color: #e5e7eb;
+}
+
+.settings-tab {
+  color: #374151;
+  background: transparent;
+}
+
+.settings-tab:hover {
+  background: #f3f4f6;
+}
+
+.settings-divider {
+  border-color: #e5e7eb;
+}
+
+/* Dark theme */
+html.dark .settings-page {
+  background: #111827;
+  color: #f9fafb;
+}
+
+html.dark .settings-card {
+  background: #1f2937;
+  border-color: #374151;
+  color: #f9fafb;
+}
+
+html.dark .settings-muted {
+  color: #9ca3af;
+}
+
+html.dark .settings-label {
+  color: #d1d5db;
+}
+
+html.dark .settings-input {
+  background: #111827;
+  color: #f9fafb;
+  border-color: #374151;
+}
+
+html.dark .settings-tab {
+  color: #d1d5db;
+}
+
+html.dark .settings-tab:hover {
+  background: #374151;
+}
+
+html.dark .settings-divider {
+  border-color: #374151;
+}
+
+html.dark select option {
+  background: #1f2937;
+  color: #f9fafb;
+}
